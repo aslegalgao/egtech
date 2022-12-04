@@ -1,0 +1,22 @@
+.page_footer {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.footer_container {
+    margin: auto;
+    width: 100%;
+}
+
+.link_list {
+    display: flex;
+    position: relative;
+    gap: 70px;
+    width: auto;
+    list-style-type: none;
+  
+}

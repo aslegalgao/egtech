@@ -1,0 +1,247 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4);
+}
+
+/* shop section */
+.shop_event {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(0, 35, 14);
+    display: block;
+    z-index: 1;
+    /* justify-content: center; */
+    justify-items: center;
+}
+
+.image_container {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:center;
+
+}
+
+.shopping_event_image {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    padding-top: 50px;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left:0;
+    margin-right: 0;
+
+}
+
+.shop_header {
+    color: white;
+    width: auto;
+    height: 100px;
+    font-size: 70px;
+    position: relative;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:center;
+    font-family: sans-serif;
+
+}
+
+.shop_sub_header {
+    color: grey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 50px;
+    width: auto;
+    
+}
+
+.shop_event_button {
+    color: rgb(0, 94, 255);
+    /* color: rgb(0, 255, 34); */
+    font-size: 25px;
+    width: auto;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    font-family: sans-serif;
+}
+
+/* phone */
+.phone {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    z-index: 1;
+
+    justify-items: center;
+}
+
+.phone_header {
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: 100px;
+    font-size: 70px;
+    position: relative;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:center;
+    font-family: sans-serif;
+}
+
+.phone_sub_header {
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 50px;
+    width: auto;
+}
+
+.sub_menu {
+    cursor: default;
+    width: auto 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+}
+
+.sub_options {
+    cursor: default;
+    margin: 0;
+    width: auto 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+    gap: 5rem;
+    justify-content: center;
+    justify-items: center;
+    padding: 0 8px 0 8px;
+    list-style-type: none;
+
+}
+
+.sub_option {
+    cursor: default;
+    width:auto;
+    font-family: sans-serif;
+    position: relative;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    
+}
+
+.sub_option_link {
+    position: relative;
+    letter-spacing: normal;
+    text-decoration: none;
+    width: auto;
+    padding:10px;
+    border: 2px;
+    color: rgb(0, 94, 255);
+    font-size: 20px;
+    border-style: solid;
+    border-color:  rgb(0, 94, 255);
+    border-radius: 25px;
+    
+}
+
+.sub_option_link:hover {
+    position: relative;
+    letter-spacing: normal;
+    text-decoration: none;
+    width: auto;
+    padding:10px;
+    border: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-style: solid;
+    border-color:  rgb(0, 94, 255);
+    border-radius: 25px;
+    background-color:  rgb(0, 94, 255);
+    transform: matrix(1.09, 0, 0, 1.09, 0, 0);
+    height: auto;
+    /* transition-duration: 0.5s; */
+}
+
+/* Laptop */
+
+.laptop {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(0, 35, 14);
+    display: block;
+    z-index: 1;
+    /* justify-content: center; */
+    justify-items: center;
+}
+
+.laptop_header {
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    font-size: 70px;
+    position: relative;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:center;
+    font-family: sans-serif;
+}
+
+.laptop_sub_header {
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 50px;
+    width: auto;
+}
+
+/* grid */
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2);
+    column-count: 2;
+    height: 1000px;
+    margin-top: 10px;
+    gap: 1rem;
+}
+ .sub_grid {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.sub_grid_container {
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    height: 100%;
+}
+.eg_logo {
+    height: 65px;
+    width: auto;
+}

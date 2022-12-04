@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    height: auto;
+   
+}
+
+.page_err {
+    position: block;
+    height: 1110px;
+   
+}
+
+.page_err_image {
+    width: 100%;
+    height: 1110px;
+    object-fit: cover;
+    z-index: -1;
+    margin-bottom: -700px;
+}
+
+.page_err_message {
+    margin-left: 50px;
+    z-index: 1;
+    color: white;
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    
+}
+

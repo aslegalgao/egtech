@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "egtech",
+    "public": "dist/eg-tech",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
